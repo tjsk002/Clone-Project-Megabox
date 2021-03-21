@@ -41,7 +41,7 @@
 </head>
 <body>
 	<!-- //header -->
-	
+	<!-- 메인 페이지 -->
 	<header id="header">
 		<div class="container">
 			<div class="row">
