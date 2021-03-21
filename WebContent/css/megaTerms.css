@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+* {box-sizing: border-box;}
+body {
+    overflow: auto; 
+    overflow-y: scroll; 
+    letter-spacing: 0; 
+    line-height: 1.5; 
+    font-size: 15px; 
+    color: #444; 
+    font-weight: 400;
+    font-family: 'NanumBarunGothic','Dotum','돋움',sans-serif;
+}
+body, html { width: 100%; height: 100%; margin: 0; padding: 0;}
+body {display: block; background-color: #f5f5f5;}
+.member {width: 710px; min-height: 100%; margin: 0 auto; padding: 80px 90px; background-color: white;}
+#header {width: 100%; height: 50px; margin-bottom: 50px; } 
+.next {border: 1px solid black;}
+.megabox_img {position: relative; width: 120px; margin: 0 auto; }
+ol {list-style-type: none; margin: 0; padding: 0; text-align: left;}
+.step_member{
+    overflow: hidden;
+    position: relative;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+.step_member:after {
+    content: '';
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ebebeb;
+}
+.step_member ol li {
+    float: left;
+    margin: 0 0 0 46px;
+    padding: 0;
+    text-align: center;
+    font-size: .9333em;
+}
+.step_member ol li:first-child{
+    margin-left: 0;
+}
+.step, .step_on {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: .9333em;
+    letter-spacing: 0;
+}
+.step_on {border-bottom: 2px solid #503396; color: #503396;}
+em { font-style: normal;}
+strong{
+    display: block;
+    font-size: 1.4666em;
+    color: #222;
+    font-weight: 400;
+}
+.info {text-align: left; display: block; line-height: 1.1; padding: 0 0 10px 0;}
+.all_check{
+    margin: 0;
+    padding: 0 0 15px 0;
+    font-size: 1.2em;
+    color: #222;
+    border-bottom: 1px solid #ebebeb;
+}
+dd, dl, dt { margin: 0; padding: 0;}
+label 
+{
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.first, .second, .third, .fourth
+{
+    display: block; 
+    border: 1px solid #d8d9db; 
+    height: 130px; 
+    padding: 20px; 
+    font-size: 14px!important; 
+    overflow: hidden; 
+    overflow-y: scroll;
+}
+.thirdTable, .fourthTable {width: 100%; margin: 0; border: 0; table-layout: fixed; border-collapse: collapse; empty-cells: show;}
+.must{ color: #503396;}
+.button 
+{
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 4px;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 120px; 
+    padding: 0;
+    cursor: pointer;
+}
+.button1 {padding: 40px 0 0 0; text-align: center;}
+button, input{
+    overflow: visible;
+    margin: 0;
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.15;
+}
+[type=checkbox]{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    padding: 0;
+}
+.button2{
+    display: inline-block;
+    width: 120px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #c1c1c1;
+    line-height: 46px;
+    border-radius: 4px;
+    font-weight: 400;
+    text-decoration: none;
+    vertical-align: middle;
+    color: #777!important;
+    background-color: #e0e0e0!important;
+    border-color: #e0e0e0!important;
+    cursor: pointer;
+}
+

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+        
+
+* {margin: 0; padding: 0; font-family: 'NanumBarunGothic';}
+
+a {text-decoration: none;}
+li {list-style: none;}
+
+
+/* 레이아웃 */
+#header {
+            left: 0; top: 0; z-index: 9999; 
+            border-bottom: 1px solid #ffffff; 
+            width: 100%; 
+            height: 100px; 
+            background-color: #000;                            
+        }
+#movie {background: url(bg-movie-detail-pattern.png) repeat 0 0;
+		background: rgb(10,9,9); /* Old browsers */
+		background: -moz-linear-gradient(left, rgba(10,9,9,1) 1%, rgba(69,72,77,1) 52%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left, rgba(10,9,9,1) 1%,rgba(69,72,77,1) 52%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right, rgba(10,9,9,1) 1%,rgba(43,40,40,1) 52%, rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		width: 100%; height: relative; padding: 35px 0; }
+#footer {background-color: #F8F8FA;  width: 100%; height: 170px; }
+
+
+/* 가운데 영역 */
+.container {position: relative; min-width:1100px; width: 1100px; margin: 0 auto;  }
+
+                                                          
+/* 헤더 */
+.row {padding: 0 0px;}
+.header h5 {float: right; margin-right: 10px;}
+.header h5 li {float: left; margin: 10px 0px 10px 20px;}
+.header h5 li a {color: #ffffff; text-decoration: none; font-size: 13px; font-weight: 100;}
+.header .nav {display: block;}
+.header .nav .nav_left{float: left; width: 400px; }
+.header .nav .nav_right {float: right; margin-top: -25px;}
+.header .nav .nav_middle {width: 200px; margin: 0 auto; margin-top: 10px;}
+.header .nav .nav_left li {float: left; width: 40px; margin: 30px;}
+.header .nav .nav_right li {float: right; padding: 0px 16px;}
+.header .nav li a {display: block; font-size: 18px; font-weight: 100; color: #ffffff}
+.header .nav li a .movieBtn:hover {border-bottom: solid 3px #ffffff; padding-bottom: 21px;}
+.header .nav li a .reserveBtn:hover {border-bottom: solid 3px #ffffff; padding-bottom: 21px;}
+.movieBtn_menu {display: none; width: 100%; height: 6%; position: absolute;}
+.movieBtn_menu > div li a {float: left; text-decoration: none; color: #ffffff; font-size: 15px; font-weight: 400; margin-top: 20px; padding-left: 240px;}
+.reserveBtn_menu {display: none; width: 100%; height: 6%; position: absolute;}
+.reserveBtn_menu > div li a {float: left; text-decoration: none; color: #ffffff; font-size: 15px; font-weight: 400; margin-top: 20px; padding-left: 343px;}
+
+/* 메뉴3 */
+.movie {padding: 10px 0px;}
+#movie_title  {position: relative; width: 1100px; margin:0auto; margin-bottom:10px; text-align:center;}
+.movie_title ul { display:inline-block; vertical-align:top; line-height: 20px; padding: 0px;}
+.movie_title li {float: left; width: 180px; text-align: center;}
+.movie_title li a {display: block; padding: 20px 0; font-size: 17px; color: #ffffff; font-weight: 400;}
+.shortcut_search {position:relative; left:25%;}
+
+/* 포스터 */
+.movie_chart {overflow: hidden; position: relative; min-width:1100px; width: 1100px; margin: 0 auto;  margin-bottom: 50px; margin-left:px;}
+.movie-post {
+    box-sizing: border-box;
+    width: 245px;
+    height: 352px;
+    /*width: 268px;
+    height: 378px;*/
+    background: #838383 0% 0% no-repeat padding-box;
+}
+.movie-post:hover{background-color: rgba(0,0,0,0.3)}
+
+.movie-summ {
+    font-size: 15px;
+    color: #dadada;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+    width: 245px;
+    height: 352px;
+    background: rgba(0, 0, 0, 0.5) 0% 0% no-repeat padding-box;
+    margin-bottom: 13px;
+}
+
+
+
+.movieinfo-wrapper {
+    position: relative;
+    color: #838383;
+
+}
+
+.btn {
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #503396;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.heart {
+    float: left;
+    border: 0.5px solid #838383;
+    font-size: 16px;
+    line-height: 40px;
+    background-color: #303030;
+}
+
+
+
+
+
+/* 검색 */
+.shortcut_search {display: inline-block; margin: 0 auto;}
+.shortcut_search > .searchMovie {display:block; float: left; border-bottom: 1px solid dimgray;}
+.shortcut_search > div > .input-text {width: 200px; height: 30px; background-color:rgba(0,0,0,0); border: 1px solid rgba(0,0,0,0); color: lightgray; padding-left: 10px; padding-bottom:5px; font-weight: 300; font-size: 15px;}
+.shortcut_search > div > img { opacity: 1;}
+.shortcut_search > .shortcut{line-height: 30px; display: block; float: left; padding: 0px 0px 50px 50px;}
+.shortcut_search > div > a {color: #fff; font-size: 15px; font-weight: 200; line-height: 50px;}
+.shortcut_search > div > a img {line-height: 40px;}
+
+/* 푸터 */
+.footer_sns {position: absolute; right: 17px; top: 33px; z-index: 1;}
+.footer_sns li {float: left; width: 36px; height: 36px; margin-left: 1px;}
+.com_infor {display: block; float: left;}
+.com_infor > ul {padding: 15px 0; float: left;}
+.com_infor > li {display: block; float: left; padding: 10px 0;}
+.com_infor li {position: relative; display: inline; padding-right: 16px;}
+.com_infor li a {color: #444; font-size: 13px;}
+.add_infor {display: block; float: left; line-height: 15px; padding-bottom: 5px;}
+.add_infor > ul {padding: 15px 0; float: left;}
+.add_infor > li {display: block; float: left; padding: 10px 0;}
+.add_infor ul.address {display:inline-table; float: left; padding: 15px 15px;}
+.add_infor li {position: relative; display: inline; padding-right: 16px;}
+.add_infor li a {color: #444; font-size: 13px;}
+.add_infor address p {float: left; text-align: left; font-style:normal; line-height: 1.5; color: #444; font-size: 13px; padding-bottom: 5px; white-space: nowrap;}

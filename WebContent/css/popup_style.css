@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+        
+
+* {margin: 0; padding: 0; font-family: 'NanumBarunGothic'; box-sizing: border-box;}
+
+a {text-decoration: none;}
+li {list-style: none;}
+
+.container {
+    width: 400px;
+}
+.popup .layer-header {
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 45px;
+    background: #503396;
+}
+.popup .layer-header h3.tit {
+    float: left;
+    padding: 15px 20px 0 20px;
+    color: #fff;
+    font-size: 1.2em;
+    line-height: 1.1;
+}
+.popup .layer-con {
+    background-color: #fff;
+    padding: 20px 20px 0 20px;
+}
+.layer-con .txt-common {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.layer-con .btn-group {
+    padding: 15px 0 20px 0;
+    margin: 0;
+}
+.button {
+    display: block;
+    height: 36px;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 1px solid #503396;
+    background-color: #503396;
+    cursor: pointer;
+    margin: auto;
+}
+img {
+    float: right;
+    margin : 15px 15px 0 0;
+}
+p {
+    line-height: 25px;
+}

@@ -1,0 +1,89 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+
+
+
+a {text-decoration: none;}
+li {list-style: none;}
+
+/* 메뉴 */
+.menuBtn_sitemap {display: none; width: 100%; height: 90%; position: absolute; margin: 0 auto;background: #444444 0% 0% no-repeat padding-box; z-index: 1; }
+.menuBtn_sitemap > div h2 {display: block; float: left; padding-top: 30px; padding-left: 50px; padding-right: 1000px; font-size: 25px; font-weight: 800; color: #ffffff}
+.sitemapMenuList {display:block;}
+.sitemapMenuList > div {display: block; float: left; padding-left: 30px; margin-left: 30px; margin-top: 50px;}
+.sitemapMenuList > div p {font-size: 20px; font-weight: 500; color: #ffffff; line-height: 30px; padding: 10px 50px; border-top: 1px solid silver; border-bottom: 1px solid silver; margin-bottom: 15px;}
+.sitemapMenuList > div li a {font-size: 16px; font-weight: 300; color: #ffffff; line-height: 40px; }
+.menuClose {display: none; position: absolute; float: left; top: 50px; left: 25px; z-index: 1;} 
+
+
+
+/* 검색 */
+.searchBtn_sitemap {display: none; width: 100%; height: 55%; position: absolute; margin: 0 auto; background : #351f67 0% 0% no-repeat padding-box; z-index: 1; }
+.searchBtn_sitemap > div .searchTitle {display: block; float: left;}
+.searchBtn_sitemap > div > div .tit {display: block; float: left; padding-top: 50px; padding-left: 50px; font-size: 15px; font-weight: 500; color: #ffffff}
+.searchBtn_sitemap > div > div .tit_mega{display: block; float: left; padding-top: 50px; padding-left: 50px; font-size: 15px; font-weight: 500; color: #ffffff; padding-right: 700px; }
+.sitemapsearchList > div {display:block; float: left; left: 50px; padding-left: 50px; padding-top: 50px; }
+.searchBtn_sitemap > div > div .list img {width: 150px; height: 210px; display: block; float: left;}
+.searchBtn_sitemap > div > div li em {display: block; float: left; margin-right: 12px; font-size: 17px; font-weight: 300; color: #ffffff; line-height: 40px;}
+.searchBtn_sitemap > div > div li a {display: block; float: left; font-size: 15px; font-weight: 300; color: #ffffff; line-height: 40px;}
+.searchBtn_sitemap > div > div > .searchMovie {display: block; width: 360px; line-height: 50px; border-bottom: solid 1px #ffffff; margin-left: 150px; margin-top: 100px; padding-left:0px; padding-top: 0px;}
+.searchBtn_sitemap > div > div > div .input-text {display: block; float: left; width: 260px; height: 60px; font-size: 17px; color: #ffffff; background-color: transparent; border: 0; padding:0px 20px}
+.searchBtn_sitemap > div > div > div .input-img {display: block; float: right; line-height: 60px; margin: 0 auto; background-color: transparent; border: 0; padding: 20px;}
+.searchClose {
+	display: none; position: absolute; float: left; top: 50px; left: 125px; z-index: 1;} 
+
+/*마이 메가박스_ 비회원*/
+.mymegaBtn_sitemap1 {display: none; width: 100%; height: 40%; position: absolute; margin: 0 auto; background : rgb(3, 123, 148) 0% 0% no-repeat padding-box; z-index: 1; }
+.mymegaBtn_sitemap1 > div .login-before {display: block; float: center;}
+.mymegaBtn_sitemap1 > div > div p {display: block; float: center; padding:65px 0 20px 0; color: #ffffff; font-size: 15px; font-weight: 400; line-height: 25px;}
+.mymegaBtn_sitemap1 > div > div .moveLogin {display: block; width: 100px; height: 35px; margin:0 auto; text-align: center; font-size: 15px; border: solid 1px #ffffff; border-radius: 5px;}
+.mymegaBtn_sitemap1 > div > div .moveLogin a {display: block; margin:0 auto; line-height: 35px; font-size: 15px; color: #ffffff;}
+.mymegaBtn_sitemap1 > div > div .nonmember a {display: block;  text-align: center; width: 200px; margin: 0 auto;  padding: 40px 0px 10px 0px; color:#ffffff; font-size: 15px; border-bottom: 1px solid #fff;}
+.mymegaClose {display: none; position: absolute; float: right; top: 50px; right: 10px; z-index: 1;} 
+
+/*마이 메가박스_ 회원*/
+.mymegaBtn_sitemap2 {display: none; width: 100%; height: 40%; position: absolute; background : rgb(3, 123, 148) 0% 0% no-repeat padding-box; z-index: 1; }
+.mymegaBtn_sitemap2 > div > div p {display: block; float: left; text-align: left; padding: 65px 30px 20px 30px; color: #ffffff; font-size: 15px; font-weight: 400; line-height: 30px; margin-right: 800px;}
+.mymegaBtn_sitemap2 > div > div .moveMymega {display: block; float: left; width: 100px; height: 35px;  margin-left: 30px; margin-top: 20px; text-align: center; font-size: 15px; border: solid 1px #ffffff; border-radius: 5px;}
+.mymegaBtn_sitemap2 > div > div .moveMymega a {display: block;  margin: 0 auto; line-height: 35px; font-size: 15px; color: #ffffff;}
+
+
+ 
+
+/* 로그인 팝업 */
+
+#loginpopup {display:none; width: 850px;  height: 484px;}
+
+.login_popup .layer-header {display:block; width: 850px; height: 45px; background: #503396; }
+.layer-header .tit { display:block; float: left; width:400px; padding: 15px 20px 0 20px; color: #fff; font-size: 1.2em; line-height: 1.1; margin-top:0; margin-right:0;}
+.layer-header img { display:block; float:right; line-height: 45px; padding: 15px 20px 0 20px;}
+.login_popup .layer-con { background-color: #fff; padding: 20px 20px 0 20px; }
+.layer-con .btn-group { padding: 15px 0 20px 0; margin: 0;}
+.login-con { width: 380px; float: left; background-color: #fff; }
+.login-con .input-text { display: block; width: 100%; height: 46px; margin-bottom: 15px;}
+.login_popup .chk-util { padding: 15px 0 35px 0; font-size: 15px; }
+.login_popup .button { display: block; height: 46px; width: 100%; background-color: #e0e0e0; color: #777; border: none; 
+						text-align: center; margin-bottom: 20px;}
+.login_popup .link {text-align: center;}
+.login_popup .link a { text-decoration: none; color: #777; font-size: 15px;}
+.login_popup span {color: #777;}
+.login-add { position: relative; float: right; width: 380px;}   
+.login-add img {
+	width:380px;
+}
+
+.login_popup a:link, .login_popup a:visited, .login_popup a:hover, .login_popup a:active { color: #777; }
+
+/*로그인 팝업 위치*/
+
+
+#loginpopup {
+    margin: 0 auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    position: absolute;
+    top: 160px;
+    left: 22%;
+    z-index: 99999;
+    box-shadow:  rgba(0, 0, 0, 0.5) 0 0 0 9999px;
+}

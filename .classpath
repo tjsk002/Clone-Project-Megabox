@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/byte-buddy-1.8.15.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/client-combined-3.141.59.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/commons-exec-1.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/guava-25.0-jre.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/mariadb-java-client-2.5.3.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/okhttp-3.11.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/okio-1.14.0.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/standard.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/taglibs-standard-jstlel-1.2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/libs/json-simple-1.1.1.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/jstl/taglibs-standard-compat-1.2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/jstl/taglibs-standard-impl-1.2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/jstl/taglibs-standard-jstlel-1.2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/jstl/taglibs-standard-spec-1.2.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Tomcat9/tomcat.ico"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/chromedriver.exe"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/jstl.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/mariadb-java-client-2.5.3.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/standard.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/Megabox/WebContent/WEB-INF/libs/taglibs-standard-jstlel-1.2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/tjsk0/Downloads/selenium-java-3.141.59.zip"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/selenium-java-3.141.59/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/selenium-java-3.141.59/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/clonePJ_megabox/jdk-8u231-windows-x64.exe"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

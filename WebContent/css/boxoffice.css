@@ -1,0 +1,175 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+
+* {
+    font-family: NanumBarunGothic;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+	text-decoration:none;
+	color: #8B8B8B;
+}
+.navigation {
+
+    height: 46px;
+    background: #F8F8FA 0% 0% no-repeat padding-box;
+    color: #8B8B8B;
+}
+
+.boxoffice-wrapper {
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.boxoffice-util {
+    position: relative;
+    margin-top: 30px;
+    padding-top: 60px;
+
+}
+
+.search-box {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 245px;
+    height: 44px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #AFAFB0;
+    font-size: 18px;
+}
+
+input::placeholder {
+    padding: 14px;
+    color: #8B8B8B
+}
+
+.movie-list {
+    margin-top: 10px;
+    margin-left: -28px;
+    width: 1125px;
+}
+
+.movie-group {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 28.5px;
+    margin-bottom: 80px;
+}
+
+.movie-post {
+    box-sizing: border-box;
+    width: 250px;
+    height: 352px;
+    background: #838383 0% 0% no-repeat padding-box;	
+    margin-bottom: 13px;
+}
+
+.movie-summ {
+    font-size: 15px;
+    color: #dadada;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    display: none;
+    position: absolute;
+	width: 250px;
+    height: 352px; 
+    background: rgba(0, 0, 0, 0.281) 0% 0% no-repeat padding-box;
+    margin-bottom: 13px;
+}
+
+.movieinfo-wrapper {
+    position: relative;
+    color: #838383;
+
+}
+
+.age{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    text-align: center;
+    color: white;
+}
+.age-12{ background: #438CF0;}
+.age-15{ background: #EBA012;}
+.age-전체{ background: #5EA530;}
+.age-청소{ background: #D53220;}
+
+.btn {
+    margin-right: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.heart {
+    float: left;
+    line-height:40px;
+    border: 1px solid #838383;
+    font-size: 16px;
+    background-color: white;
+}
+
+.click{
+	  background-color: white;
+}
+
+.regist {
+    float: right;
+    line-height: 40px;
+    position: absolute;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background: #503396 0% 0% no-repeat padding-box;
+}
+
+.show-more {
+    margin-bottom: 120px;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 1px;
+    background-color: white;
+    outline: none;
+    opacity: 1;
+    font-size: 22px;
+    border: none;
+    outline: none;
+    color: #8B8B8B;
+    border-bottom: 1px solid #AAAAAA;
+}
+
+
+/* 메뉴 */
+
+.menuBtn_sitemap { width: 100%; height: 90%; position: absolute; margin: 0 auto;background: #444444 0% 0% no-repeat padding-box; z-index: 1; }
+.sitemapMenuList {display:block;}
+.sitemapMenuList > div {display: block; float: left; padding-left: 30px; margin-left: 30px; margin-top: 50px;}
+.sitemapMenuList > div p {font-size: 20px; font-weight: 500; color: #ffffff; line-height: 30px; padding: 10px 50px; border-top: 1px solid silver; border-bottom: 1px solid silver; margin-bottom: 15px;}
+.sitemapMenuList > div li a {font-size: 16px; font-weight: 300; color: #ffffff; line-height: 40px; }
+
+
+
+
+/* 검색 */
+
+.searchBtn_sitemap {width: 100%; height: 55%; position: absolute; margin: 0 auto; background : #351f67 0% 0% no-repeat padding-box; z-index: 1; }
+.tit {display: block; float: left; padding-top: 50px; padding-left: 50px; font-size: 15px; font-weight: 500; color: #ffffff}
+.sitemapsearchList > div {display:block; float: left; left: 50px; padding-left: 50px; padding-top: 50px; }
+.list-depth > li  {float: left; margin-right: 12px; font-size: 15px; color: #ffffff; font-weight: 300; line-height: 40px;}
+
+
+
+#footer {background-color: #F8F8FA;  width: 100%; height: 170px; }
+
+
+

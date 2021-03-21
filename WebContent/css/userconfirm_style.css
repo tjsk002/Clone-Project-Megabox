@@ -1,0 +1,191 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@latest/nanumbarungothicsubset.css");
+        
+
+* {margin: 0; padding: 0; font-family: 'NanumBarunGothic'; box-sizing: border-box;}
+
+a {text-decoration: none;}
+a:link, a:visited { color: #666}
+a:hover, a:active { color: #01738b; }
+li {list-style: none;}
+
+.container-userconfirm {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 15px;
+    color: #444;
+    font-weight: 400;
+    margin: 0 auto;
+    position: relative;
+}
+.container-userconfirm .page-util {
+    display: block;
+    width: 100%;
+    height: 42px;
+    background-color: #f8f8fa;
+
+}
+.container-userconfirm .inner-wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.container-userconfirm .location {
+    clear: both;
+    height: 42px;
+    margin: 0 0 0 25px;
+    padding: 0;
+    line-height: 46px;
+    color: #666;
+}
+.container-userconfirm .location > span {
+    width: 13px;
+    margin: 5px;
+}
+.container-userconfirm .nav {
+    float: left;
+    width: 200px;
+    padding: 40px 0 0 0;
+    background-color: #fff;
+}
+.container-userconfirm .nav-title {
+    background: url(https://img.megabox.co.kr/static/pc/images/common/bg/bg-lnb-tit.png) 0 0;
+    border-radius: 10px 10px 0 0;
+    height: 89.6px;
+}
+.container-userconfirm .nav-title a {
+    display: block;
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 90px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container-userconfirm #lnb > ul {
+    border: 1px solid #d8d9db;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-radius: 0 0 10px 10px;
+}
+.container-userconfirm .nav-sub {
+    margin: 10px 0 10px 20px;
+}
+.container-userconfirm .nav-depth {
+    margin: 15px 0 10px 30px;
+    font-size: 0.8em;
+}
+
+.container-userconfirm .userconfirm {
+    width: 840px;
+    float: right;
+    position: relative;
+    height: 198px;
+    padding: 30px 30px 0 0;
+    margin-top: 10px;
+}
+
+.container-userconfirm h2 { padding-bottom: 5px; margin-bottom: 10px; }
+
+.container-userconfirm strong { 
+    display: block;
+    padding: 0 0 20px 0;
+    line-height: 1.1;
+    font-size: 1.3333em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-userconfirm .intro-pwd { text-align: center; }
+.container-userconfirm .intro-pwd p {
+    display: block;
+    padding: 0 0 25px 0;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.container-userconfirm .input-text.large {
+    height: 46px;
+    line-height: 44px;
+    margin-bottom: 20px;
+}
+
+.container-userconfirm .w380px {
+    width: 380px;
+}
+
+.container-userconfirm .btn-group {
+    padding: 20px 0 30px 0;
+    margin: 0;
+    text-align: center;
+}
+
+.container-userconfirm .btn-group .button {
+    margin: 0 3px;
+}
+.container-userconfirm #cancelBtn {
+    height: 46px;
+    padding: 10px 30px;
+    color: #503396;
+    border: 1px solid #503396;
+    border-radius: 2px;
+    font-size: 15px;
+}
+.container-userconfirm #ckBtn {
+    height: 46px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #503396;
+    border: 1px solid #503396;
+    border-radius: 2px;
+    font-size: 15px;
+}
+
+
+/* 레이아웃 */
+.container-main { width: 100%; margin: 0 auto;}
+#header {
+    left: 0; top: 0; z-index: 9999; 
+    border-bottom: 1px solid #000000; 
+    width: 100%; 
+    height: 100px; 
+    margin: 0 auto;
+    background-color: #fff;
+}
+#body {background-color: #fff; height: relative; }
+#footer {background-color: lightgray; width: 100%; height: 170px; position: absolute; bottom: 0;}
+
+
+                                                  
+/* 헤더 */
+.row {padding: 0 16px; width: 1100px; margin: 0 auto;}
+.header h5 {float: right; margin-right: 10px;}
+.header h5 li {float: left; margin: 10px 0px 10px 20px;}
+.header h5 li a {color: #000; text-decoration: none; font-size: 13px; font-weight: 100;}
+.header .nav {display: block;}
+.header .nav .nav_left{float: left; width: 400px; }
+.header .nav .nav_right {float: right; margin-top: -25px;}
+.header .nav .nav_middle {width: 200px; margin: 0 auto; margin-top: 10px;}
+.header .nav .nav_left li {float: left; width: 40px; margin: 30px;}
+.header .nav .nav_right li {float: right; padding: 0px 16px;}
+.header .nav li a {display: block; font-size: 18px; font-weight: 100; color: #ffffff}
+
+
+ 
+/* 푸터 */
+.footer_sns {float: right; margin: 33px 17px 0 0; z-index: 1;}
+.footer_sns li {float: left; width: 36px; height: 36px; margin-left: 1px;}
+.com_infor {display: block; float: left;}
+.com_infor > ul {padding: 15px 0; float: left;}
+.com_infor > li {display: block; float: left; padding: 10px 0;}
+.com_infor li {position: relative; display: inline; padding-right: 16px;}
+.com_infor li a {color: #444; font-size: 13px;}
+.add_infor {display: block; float: left; line-height: 15px; padding-bottom: 5px;}
+.add_infor > ul {padding: 15px 0; float: left;}
+.add_infor > li {display: block; float: left; padding: 10px 0;}
+.add_infor ul.address {display:inline-table; float: left; padding: 15px 15px;}
+.add_infor li {position: relative; display: inline; padding-right: 16px;}
+.add_infor li a {color: #444; font-size: 13px;}
+.add_infor address p {float: left; text-align: left; font-style:normal; line-height: 1.5; color: #444; font-size: 13px; padding-bottom: 5px; white-space: nowrap;}

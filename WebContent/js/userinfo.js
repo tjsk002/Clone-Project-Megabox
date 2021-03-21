@@ -1,0 +1,11 @@
+$(function(){
+    $("#ckBtn").click(function(){
+        $(".modify_popup").show();
+    });
+    $("img").click(function(){
+        $(".modify_popup").hide();
+    })
+    $(".confirm").click(function(){
+        $(".modify_popup").hide();
+    })
+})
