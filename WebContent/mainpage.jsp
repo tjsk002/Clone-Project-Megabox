@@ -147,7 +147,7 @@
 				<div class="list position-3">
 					<p class="tit-depth">나의 메가박스</p>
 					<ul class="list-depth mymage">
-						<li><a href="mypagemain.jsp" title="나의 메가박스 홈">나의 메가박스 홈</a></li>
+						<li><a href="mypagemain.jsp" title="나의 메가박스홈">나의 메가박스 홈</a></li>
 						<li><a href="bookinglist.jsp" title="예매내역">예매/구매내역</a></li>
 						<li><a href="userinfo.jsp" title="회원정보">회원정보</a></li>
 					</ul>
